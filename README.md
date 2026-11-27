@@ -8,7 +8,7 @@ data/        site.yaml pi.yaml people.yaml research.yaml projects.yaml
              publications.yaml patents.yaml news.yaml gallery.yaml journals.yaml
 templates/   Jinja2 page templates
 static/      style.css, img/, video/   (copied as-is)
-tools/       add_paper.py, import_jcr.py
+tools/       add_paper.py, import_index.py
 build.py     data + templates → _site/
 ```
 
@@ -27,14 +27,14 @@ Pushing to `main` builds and deploys to GitHub Pages (`.github/workflows/deploy.
 The DOI is read from the PDF and metadata comes from Crossref. An entry marked
 `status: accepted` with the same title is upgraded in place.
 
-## Impact factor / JCR rank
+## SCIE badge
 
-    python3 tools/import_jcr.py --list                  # journals that need metrics
-    python3 tools/import_jcr.py JCR_export.csv 2025     # import a JCR CSV export
+    uv run --with openpyxl --with pyyaml python tools/import_index.py 20261116_JournalList_1.xlsx
 
-Metrics come only from a Journal Citation Reports export (university library access).
-Do not type numbers by hand or copy them from third-party sites. Update once a year
-after the June JCR release.
+Reads the yearly SCIE/SSCI/A&HCI journal-list workbook and writes `data/journals.yaml`.
+Run it again after adding a paper in a journal not yet listed, or when a new list
+arrives. The workbook stays out of git (`/*.xlsx` is ignored).
+Impact factors are deliberately not shown.
 
 ## Members, news, projects
 

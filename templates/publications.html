@@ -7,7 +7,7 @@
     <p class="pa">{{ p.authors_html | safe }}</p>
     <p class="pj"><i>{{ p.journal }}</i>{% if p.tail %}, {{ p.tail }}{% endif %}{% if p.year and p.status != 'accepted' %} ({{ p.year }}){% endif %}
       {% if p.doi %}<a class="doi" href="https://doi.org/{{ p.doi }}" rel="noopener">DOI</a>{% endif %}
-      {% if p.metric %}<span class="metric" title="JCR {{ jcr_year }}{% if p.metric.category %} · {{ p.metric.category }}{% endif %}">IF {{ p.metric.if }}{% if p.metric.quartile %} · {{ p.metric.quartile }}{% endif %}{% if p.metric.rank %} ({{ p.metric.rank }}){% endif %}</span>{% endif %}
+      {% if p.metric %}<span class="metric">{{ p.metric.index }}</span>{% endif %}
     </p>
   </div>
 </li>
@@ -15,8 +15,7 @@
 {% block body %}
 <section class="wrap block">
   <h1 class="page">Publications</h1>
-  <p class="muted">{{ n_int }} international and {{ n_dom }} domestic journal articles. <strong>*</strong> corresponding author, <strong>+</strong> equal contribution.
-    {% if jcr_year %}Impact factors and ranks from JCR {{ jcr_year }}.{% endif %}</p>
+  <p class="muted">{{ n_int }} international and {{ n_dom }} domestic journal articles. <strong>*</strong> corresponding author, <strong>+</strong> equal contribution.</p>
   <nav class="chips"><a href="#international">International ({{ n_int }})</a><a href="#domestic">Domestic ({{ n_dom }})</a></nav>
 
   <h2 class="sec" id="international">International Journals</h2>

@@ -104,7 +104,7 @@ def main():
     ctx = dict(
         site=site, pages=PAGES, pi=load('pi'), people=load('people'), projects=load('projects'),
         research=load('research'), news=load('news'), gallery=load('gallery'), patents=load('patents'),
-        intl=intl, dom=dom, n_int=n_int, n_dom=n_dom, jcr_year=jm.get('jcr_year'),
+        intl=intl, dom=dom, n_int=n_int, n_dom=n_dom,
         recent=[p for p in pubs if p['kind'] == 'international'][:5],
     )
 

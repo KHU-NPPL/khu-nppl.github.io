@@ -1,5 +1,54 @@
-# Journal metrics shown next to each publication.
-# Fill from a JCR export (tools/import_jcr.py) — never type numbers from memory or secondary websites.
-# key: lower-case journal title as it appears in publications.yaml
-jcr_year: null
-journals: {}
+# Citation index shown next to each publication (tools/import_index.py).
+# Generated from the journal-list workbook — do not edit by hand.
+journals:
+  acs sustainable chemistry & engineering:
+    index: SCIE
+  applied surface science:
+    index: SCIE
+  archives of metallurgy and materials:
+    index: SCIE
+  carbon:
+    index: SCIE
+  ceramics international:
+    index: SCIE
+  coatings:
+    index: SCIE
+  dental materials:
+    index: SCIE
+  energy & environmental science:
+    index: SCIE
+  international journal of refractory metals and hard materials:
+    index: SCIE
+  journal of alloys and compounds:
+    index: SCIE
+  journal of asian ceramic societies:
+    index: SCIE
+  journal of materials processing technology:
+    index: SCIE
+  journal of materials science & technology:
+    index: SCIE
+  journal of the american ceramic society:
+    index: SCIE
+  korean journal of metals and materials:
+    index: SCIE
+  materials:
+    index: SCIE
+  materials & design:
+    index: SCIE
+  materials characterization:
+    index: SCIE
+  materials today communications:
+    index: SCIE
+  metallurgical and materials transactions a:
+    index: SCIE
+  metals and materials international:
+    index: SCIE
+  nano letters:
+    index: SCIE
+  powder metallurgy:
+    index: SCIE
+  rare metals:
+    index: SCIE
+  scientific reports:
+    index: SCIE
+source: 20261116_JournalList_1.xlsx

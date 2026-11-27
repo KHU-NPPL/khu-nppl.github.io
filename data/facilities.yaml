@@ -1,0 +1,27 @@
+# Major equipment. Descriptions come from the lab's own news posts — add specs only from a verified source.
+- name: Meltio M450
+  kind: Laser-wire directed energy deposition (LW-DED)
+  maker: Meltio (Spain)
+  since: 2024-12
+  image: img/news/m450.jpg
+  fit: contain
+  body: >-
+    A wire-based laser DED system, the first of its kind at a university in Korea.
+    It complements our powder bed fusion equipment with high build speed and a user-friendly interface.
+- name: CSCAM AnyX-120
+  kind: Laser powder bed fusion (L-PBF)
+  maker: CSCAM
+  since: 2023-10
+  image: img/news/anyx120.jpg
+  body: >-
+    A powder bed fusion machine with a 500 W laser.
+    We use it for in-situ alloying during additive manufacturing and for printing with non-spherical titanium powder.
+- name: Hosokawa Nobilta NOB-130
+  kind: Powder processing (particle shaping and surface coating)
+  maker: Hosokawa Micron
+  since: ""
+  image: img/news/nob130.jpg
+  body: >-
+    Applies impact, compression and attrition to powders to modify particle shape or attach fine particles onto metal powder surfaces.
+    We use it to produce oxide-dispersion-strengthened (ODS) composite powders for powder bed fusion.
+    Acquired through the Korean government's Equipment Sharing Program.

@@ -29,7 +29,7 @@
     {% endfor %}
   </div>
 
-  <h2 class="sec">Alumni</h2>
+  <h2 class="sec" id="alumni">Alumni</h2>
   <table class="alumni">
     <thead><tr><th>Name</th><th>Period</th><th>Current position</th></tr></thead>
     <tbody>{% for a in people.alumni %}<tr><td>{{ a.name }}</td><td>{{ a.period }}</td><td>{{ a.now }}</td></tr>{% endfor %}</tbody>

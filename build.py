@@ -22,6 +22,7 @@ PAGES = [
     ('index.html', 'Home'),
     ('people.html', 'People'),
     ('research.html', 'Research'),
+    ('facilities.html', 'Facilities'),
     ('projects.html', 'Projects'),
     ('publications.html', 'Publications'),
     ('patents.html', 'Patents'),
@@ -76,6 +77,17 @@ def bust(html):
     return re.sub(r'\b(src|href)="((?:img|video)/[^"?#]+|style\.css)"', sub, html)
 
 
+def write_redirects(redirects):
+    """Old Wix addresses (e.g. /services-5) → new pages. GitHub Pages serves slug.html for /slug."""
+    for slug, target in redirects.items():
+        t = html.escape(target)
+        (OUT / f'{slug}.html').write_text(
+            f'<!doctype html><meta charset="utf-8"><title>Moved</title>'
+            f'<link rel="canonical" href="{t}"><meta name="robots" content="noindex">'
+            f'<meta http-equiv="refresh" content="0; url={t}">'
+            f'<p>This page has moved: <a href="{t}">{t}</a></p>', encoding='utf8')
+
+
 def main():
     site = load('site')
     pubs = load('publications')['publications']
@@ -103,7 +115,7 @@ def main():
 
     ctx = dict(
         site=site, pages=PAGES, pi=load('pi'), people=load('people'), projects=load('projects'),
-        research=load('research'), news=load('news'), gallery=load('gallery'), patents=load('patents'),
+        research=load('research'), facilities=load('facilities'), news=load('news'), gallery=load('gallery'), patents=load('patents'),
         intl=intl, dom=dom, n_int=n_int, n_dom=n_dom,
         recent=[p for p in pubs if p['kind'] == 'international'][:5],
     )
@@ -115,6 +127,14 @@ def main():
     for fname, title in PAGES:
         tpl = env.get_template(fname)
         (OUT / fname).write_text(bust(tpl.render(current=fname, title=title, **ctx)), encoding='utf8')
+    (OUT / '404.html').write_text(bust(env.get_template('404.html').render(current='', title='Page not found', **ctx)), encoding='utf8')
+    write_redirects(load('redirects') or {})
+    base = site['url'].rstrip('/') + '/'
+    (OUT / 'sitemap.xml').write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + ''.join(f'  <url><loc>{base}{"" if f == "index.html" else f}</loc></url>\n' for f, _ in PAGES)
+        + '</urlset>\n', encoding='utf8')
+    (OUT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {base}sitemap.xml\n', encoding='utf8')
     if (ROOT / 'CNAME').exists():
         shutil.copy(ROOT / 'CNAME', OUT / 'CNAME')
     (OUT / '.nojekyll').write_text('')

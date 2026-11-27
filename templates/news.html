@@ -3,12 +3,13 @@
 <section class="wrap block">
   <h1 class="page">News</h1>
   {% for n in news %}
-  <article class="news">
-    <img src="{{ n.image }}" alt="" loading="lazy">
+  <article class="news{% if not n.image %} noimg{% endif %}">
+    {% if n.image %}<img src="{{ n.image }}" alt="" loading="lazy">{% endif %}
     <div>
       {% if n.date %}<p class="eyebrow">{{ n.date }}</p>{% endif %}
       <h2>{{ n.title }}</h2>
       <p>{{ n.body }}</p>
+      {% if n.link %}<p><a href="{{ n.link }}" rel="noopener">Read the paper →</a></p>{% endif %}
     </div>
   </article>
   {% endfor %}

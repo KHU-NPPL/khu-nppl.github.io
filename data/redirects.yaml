@@ -1,0 +1,13 @@
+# Old Wix page addresses → new pages, so links already out there keep working.
+# /people, /research, /news, /gallery, /patents need no entry: GitHub Pages serves people.html for /people.
+services-5: projects.html
+non-spherical-powder-for-pbf-am: projects.html
+publication: publications.html
+domestic: publications.html#domestic
+current-researcher: people.html
+alumni: people.html#alumni
+capacitive-deionization: research.html#characterization
+high-entropy-alloys: research.html#sintering
+metal-powders: research.html#powder
+rare-earth-element: research.html#am
+lecture: index.html

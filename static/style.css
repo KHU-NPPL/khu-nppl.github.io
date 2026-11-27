@@ -38,7 +38,7 @@ img, video { max-width: 100%; display: block; }
 .nav a:hover { background: var(--bg2); text-decoration: none; }
 .nav a.on { color: var(--accent); background: var(--accent-weak); }
 .nav-toggle, .nav-btn { display: none; }
-@media (max-width: 860px) {
+@media (max-width: 1060px) {
   .nav-btn { display: flex; flex-direction: column; gap: 4px; cursor: pointer; padding: 8px; }
   .nav-btn span { width: 22px; height: 2px; background: var(--fg); border-radius: 2px; }
   .nav { display: none; position: absolute; left: 0; right: 0; top: 64px; background: var(--bg); border-bottom: 1px solid var(--line); flex-direction: column; padding: 8px 16px 16px; }
@@ -133,6 +133,17 @@ ol.pubs { list-style: none; padding: 0; margin: 0; }
 .doi, .metric { display: inline-block; font-size: 12px; font-weight: 600; padding: 1px 8px; border-radius: 999px; margin-left: 6px; vertical-align: 1px; font-style: normal; }
 .doi { border: 1px solid var(--accent); color: var(--accent); }
 .metric { background: var(--accent-weak); color: var(--accent); }
+
+/* facilities / news without image / recruiting */
+.facility img { aspect-ratio: 4/3; object-fit: cover; }
+.facility h3 { font-size: 19px; }
+.facility p { margin: 0 0 6px; }
+.news.noimg { grid-template-columns: 1fr; }
+.recruit { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 14px; }
+.recruit h3 { margin: 0 0 6px; font-size: 17px; }
+.recruit p { margin: 0 0 8px; }
+.recruit ul { margin: 0 0 8px; padding-left: 18px; }
+.recruit .label { font-weight: 600; color: var(--accent); font-size: 14px; margin: 10px 0 2px; }
 
 /* gallery */
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }

@@ -1,5 +1,6 @@
 lab_name: Novel Powder Processing Lab.
 lab_short: NPPL
+url: https://khu-nppl.github.io   # change to https://lbinlab.com on the DNS switch day
 pi_name_en: Bin Lee, Ph.D.
 pi_name_ko: 이빈
 pi_title_en: Associate Professor
@@ -14,3 +15,11 @@ welcome: |
   We are always looking for motivated and curious individuals to join our team.
   Graduate and undergraduate students who are interested in our research are welcome.
   Please contact Prof. Bin Lee (leebin@khu.ac.kr) for further information.
+recruit_ko:
+  title: 대학원생·학부연구생 모집
+  lead: 석사, 박사, 석박사통합 과정 대학원생과 학부연구생을 모집합니다.
+  areas:
+    - 금속 적층제조 (L-PBF, DED)
+    - 금속 분말 제조와 표면처리
+    - 소결
+  apply: 이빈 교수(leebin@khu.ac.kr)에게 간단한 자기소개와 성적표를 이메일로 보내 주세요. 연구실 방문 상담도 환영합니다.

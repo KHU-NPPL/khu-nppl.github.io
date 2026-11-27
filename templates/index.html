@@ -38,6 +38,15 @@
     <h2 class="sec">Join us</h2>
     <p>{{ site.welcome | replace('\n', ' ') }}</p>
     <p><a class="btn" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    {% set r = site.recruit_ko %}
+    <div class="recruit" lang="ko">
+      <h3>{{ r.title }}</h3>
+      <p>{{ r.lead }}</p>
+      <p class="label">연구 분야</p>
+      <ul>{% for a in r.areas %}<li>{{ a }}</li>{% endfor %}</ul>
+      <p class="label">지원 방법</p>
+      <p>{{ r.apply }}</p>
+    </div>
   </div>
 </section>
 {% endblock %}

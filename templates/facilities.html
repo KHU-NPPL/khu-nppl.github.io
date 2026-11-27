@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+<section class="wrap block">
+  <h1 class="page">Facilities</h1>
+  <div class="projects">
+    {% for f in facilities %}
+    <article class="project facility">
+      <img src="{{ f.image }}" alt="{{ f.name }}" loading="lazy"{% if f.fit %} class="fit-{{ f.fit }}"{% endif %}>
+      <div>
+        <p class="eyebrow">{{ f.kind }}</p>
+        <h3>{{ f.name }}</h3>
+        <p class="muted">{{ f.maker }}{% if f.since %} · installed {{ f.since }}{% endif %}</p>
+        <p>{{ f.body }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

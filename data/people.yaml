@@ -1,7 +1,7 @@
 current:
   - {name: Yu Jin Rhee, role: Research Professor, since: 2026, photo: img/people/yujin-rhee.jpg, email: yujrhee@khu.ac.kr, area: ["L-PBF process with Al alloys", "Comprehensive TEM analysis"]}
   - {name: Ju Young Lee, role: Ph.D. Candidate, since: 2026, photo: img/people/juyoung-lee.jpg, email: ljy0323@khu.ac.kr, area: ["L-PBF process of high-temperature alloys", "Surface modification of metal powders for additive manufacturing"]}
-  - {name: Se-hun Kim, role: Post-Master's Researcher, since: 2024, photo: img/people/sehun-kim.jpg, email: sehun0316@naver.com, area: ["In-situ alloying of elementally blended powders during L-PBF"]}
+  - {name: Se-hun Kim, role: Post-Master's Researcher, since: 2026, photo: img/people/sehun-kim.jpg, email: sehun0316@naver.com, area: ["In-situ alloying of elementally blended powders during L-PBF"]}
   - {name: Taehoo Kang, role: M.S. Candidate, since: 2025, photo: img/people/taehoo-kang.jpg, email: chdy5533@khu.ac.kr, area: ["L-PBF of magnetic materials (Nd-Fe-B magnets and magnetocaloric alloys)"]}
   - {name: Jongik Lee, role: M.S. Candidate, since: 2025, photo: img/people/jongik-lee.jpg, email: leokyle@khu.ac.kr, area: ["LW-DED process of Ti-6Al-4V alloys"]}
   - {name: Sanghee Jeong, role: M.S. Candidate, since: 2025, photo: img/people/sanghee-jeong.jpg, email: wjdtkdgml22@naver.com, area: ["Powder modification for L-PBF of ODS-Ti alloys"]}

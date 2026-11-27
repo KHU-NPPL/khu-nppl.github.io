@@ -112,6 +112,8 @@ figcaption { font-size: 13.5px; color: var(--muted); margin-top: 6px; }
 .projects { display: grid; gap: 16px; }
 .project, .news { display: grid; grid-template-columns: 280px 1fr; gap: 20px; align-items: center; border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; background: var(--card); }
 .project img, .news img { border-radius: 8px; width: 100%; background: #fff; }
+.project img { aspect-ratio: 16/9; object-fit: cover; }
+.project img.fit-contain { object-fit: contain; }
 .project h3 { margin: 0 0 4px; font-size: 17px; }
 .news { align-items: start; margin-bottom: 16px; }
 .news h2 { margin: 0 0 6px; font-size: 19px; }

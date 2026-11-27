@@ -10,7 +10,7 @@
 - id: powder
   title: Powder Fabrication
   image: img/research/powder.jpg
-  topics: ["Gas atomization of titanium and high-entropy alloy powders", "Surface treatment and coating of metal powders", "Recycling of hardmetal and rare metal scrap into powders"]
+  topics: ["Composite powders by mechanofusion (Hosokawa Nobilta): nano-oxide particles attached onto metal powders for ODS alloys", "Surface coating of metal powders to improve flowability and spreadability for additive manufacturing", "Recycling of hardmetal and rare metal scrap into powders"]
   figures: []
 - id: sintering
   title: Sintering

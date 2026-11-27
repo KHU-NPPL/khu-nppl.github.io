@@ -40,3 +40,10 @@ Impact factors are deliberately not shown.
 
 Edit `data/people.yaml`, `data/news.yaml`, `data/projects.yaml`. Photos go in
 `static/img/people/` (square, ≥ 400 px).
+
+## DNS switch day (before 2027-01-20, when the Wix plan expires)
+
+1. Wix → Domains → lbinlab.com → DNS records: A @ → 185.199.108.153 / .109.153 / .110.153 / .111.153, CNAME www → khu-nppl.github.io.
+2. Here: `echo lbinlab.com > CNAME`, set `url: https://lbinlab.com` in `data/site.yaml`, commit, push.
+3. Repo Settings → Pages → custom domain lbinlab.com, then tick "Enforce HTTPS" once the certificate is issued.
+4. Google Search Console: add the property lbinlab.com and submit `https://lbinlab.com/sitemap.xml`.

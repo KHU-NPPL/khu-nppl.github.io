@@ -8,12 +8,12 @@ current:
   - {name: Jimin Han, role: M.S. Candidate, since: 2026, photo: img/people/jimin-han.jpg, email: hanjiya22@khu.ac.kr, area: ["In-situ L-PBF of special Ti alloys (Ti-Pd)", "LW-DED process optimization and characterization of STS316L"]}
   - {name: Sang Wook Park, role: M.S. Candidate, since: 2026, photo: img/people/sangwook-park.jpg, area: ["L-PBF and mechanical properties of high-entropy alloys"]}
 alumni:
-  - {name: Hwa-seon Lee, period: "Researcher (2019.11–2020.4)", now: Samsung Electronics}
-  - {name: Chi-ho Shim, period: "Researcher (2021.1–2021.8)", now: Applied Materials Korea}
-  - {name: Dong-il Jeong, period: "Researcher (2021.6–2021.12)", now: Korea Automotive Technology Institute (KATECH)}
   - {name: Uk-ju Gim, period: "Researcher (2022.1–2022.6), M.S. (2023.8–2025.7)", now: LincSolution}
-  - {name: Young-il Kim, period: "M.S. (2019.3–2021.2)", now: Samsung Electronics}
   - {name: In-yeong Kim, period: "M.S. (2021.3–2023.2)", now: Samsung Electronics}
   - {name: Dae-kyeom Kim, period: "Ph.D. (2018.2–2023.2)", now: Korea Institute of Industrial Technology (KITECH)}
   - {name: Muhammad Waqas Khalid, period: "M.S. & Ph.D. (2017.3–2023.2)", now: Yeonhwa Advanced Materials}
   - {name: Sang Cheol Park, period: "M.S. (2021.3–2023.2)", now: Poscore}
+  - {name: Dong-il Jeong, period: "Researcher (2021.6–2021.12)", now: Korea Automotive Technology Institute (KATECH)}
+  - {name: Chi-ho Shim, period: "Researcher (2021.1–2021.8)", now: Applied Materials Korea}
+  - {name: Young-il Kim, period: "M.S. (2019.3–2021.2)", now: Samsung Electronics}
+  - {name: Hwa-seon Lee, period: "Researcher (2019.11–2020.4)", now: Samsung Electronics}

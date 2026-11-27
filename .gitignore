@@ -1,2 +1,8 @@
 _site/
 __pycache__/
+
+# private inputs — never publish (JCR exports are licensed; PDFs are inbound papers)
+/*.xlsx
+/*.xls
+/*.csv
+/*.pdf

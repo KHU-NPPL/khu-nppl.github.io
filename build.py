@@ -4,6 +4,7 @@
     python3 build.py            # build
     python3 build.py --serve    # build and serve at http://localhost:8000
 """
+import hashlib
 import html
 import re
 import shutil
@@ -64,6 +65,17 @@ def journal_metric(p, journals):
     return journals.get(key)
 
 
+def bust(html):
+    """Append ?v=<content hash> to local asset URLs so browsers fetch a changed file at once."""
+    def sub(m):
+        f = ROOT / 'static' / m.group(2)
+        if not f.is_file():
+            return m.group(0)
+        h = hashlib.md5(f.read_bytes()).hexdigest()[:8]
+        return f'{m.group(1)}="{m.group(2)}?v={h}"'
+    return re.sub(r'\b(src|href)="((?:img|video)/[^"?#]+|style\.css)"', sub, html)
+
+
 def main():
     site = load('site')
     pubs = load('publications')['publications']
@@ -102,7 +114,7 @@ def main():
     shutil.copytree(ROOT / 'static', OUT)
     for fname, title in PAGES:
         tpl = env.get_template(fname)
-        (OUT / fname).write_text(tpl.render(current=fname, title=title, **ctx), encoding='utf8')
+        (OUT / fname).write_text(bust(tpl.render(current=fname, title=title, **ctx)), encoding='utf8')
     if (ROOT / 'CNAME').exists():
         shutil.copy(ROOT / 'CNAME', OUT / 'CNAME')
     (OUT / '.nojekyll').write_text('')

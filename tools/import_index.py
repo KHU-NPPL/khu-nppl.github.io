@@ -46,10 +46,13 @@ def main(xlsx):
             out[j.lower()] = {'index': ', '.join(sorted(hit))}
         else:
             missing.append(j)
+    old = yaml.safe_load(JOURNALS.read_text(encoding='utf8')) if JOURNALS.exists() else {}
+    manual = (old or {}).get('manual') or {}          # hand-added entries survive a rerun
     JOURNALS.write_text(
         '# Citation index shown next to each publication (tools/import_index.py).\n'
-        '# Generated from the journal-list workbook — do not edit by hand.\n'
-        + yaml.safe_dump({'source': Path(xlsx).name, 'journals': out}, allow_unicode=True, sort_keys=True),
+        '# "journals" is generated from the journal-list workbook — do not edit by hand.\n'
+        '# "manual" holds journals added by hand (not in the workbook); it is kept on rerun.\n'
+        + yaml.safe_dump({'source': Path(xlsx).name, 'journals': out, 'manual': manual}, allow_unicode=True, sort_keys=False),
         encoding='utf8')
     print(f'{len(out)}/{len(journals)} journals indexed')
     for j in missing:

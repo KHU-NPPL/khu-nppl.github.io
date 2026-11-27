@@ -19,6 +19,17 @@ publications:
   issn:
   - 0263-4368
 - kind: international
+  title: 'Tensile properties and microstructure of Ti-6Al-4V fabricated by LW-DED: effect of build direction'
+  authors: Jongik Lee, Sehun Kim, Junhyeok Choi, Yeonha Chang, Hyomoon Joo, Bin Lee*
+  journal: Rapid Prototyping Journal
+  year: 2026
+  month: 11
+  page: 1-15
+  doi: 10.1108/rpj-05-2026-0278
+  issn:
+  - 1355-2546
+  - 1758-7670
+- kind: international
   title: 'In-situ alloying of Ti-40Nb via L-PBF using non-spherical powders: Microstructure, mechanical properties and in vitro cytotoxicity'
   authors: Sehun Kim, Byeongseon An, Jaesung Kwon, Aruem Han, Sekwon Oh, Yewon Han, Taehu Kang, Jongik Lee, Sanghee Jeong, Jimin Han, Yujin Rhee*, Bin Lee*
   journal: Journal of Alloys and Compounds

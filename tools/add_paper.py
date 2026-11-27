@@ -105,18 +105,19 @@ def main(args):
 
 
 def add_news(papers):
-    news = yaml.safe_load(NEWS.read_text(encoding='utf8')) or []
-    links = {n.get('link') for n in news}
+    # prepend as text so the hand-written block scalars below stay untouched
+    text = NEWS.read_text(encoding='utf8')
+    links = {n.get('link') for n in (yaml.safe_load(text) or [])}
     today = datetime.date.today().isoformat()
+    items = []
     for e in papers:
         link = 'https://doi.org/' + e['doi']
         if link in links:
             continue
-        news.insert(0, {'date': today, 'title': f"New paper in {e['journal']}",
-                        'body': e['title'], 'link': link})
+        items.append({'date': today, 'title': f"New paper in {e['journal']}", 'body': e['title'], 'link': link})
         print(f'  + news: New paper in {e["journal"]}')
-    NEWS.write_text(yaml.safe_dump(news, allow_unicode=True, sort_keys=False, width=200), encoding='utf8')
-
+    if items:
+        NEWS.write_text(yaml.safe_dump(items, allow_unicode=True, sort_keys=False, width=200) + text, encoding='utf8')
 
 if __name__ == '__main__':
     main(sys.argv[1:])

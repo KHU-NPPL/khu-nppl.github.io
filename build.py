@@ -92,7 +92,7 @@ def main():
     site = load('site')
     pubs = load('publications')['publications']
     jm = load('journals')
-    journals = {k.lower(): v for k, v in (jm.get('journals') or {}).items()}
+    journals = {k.lower(): v for k, v in {**(jm.get('manual') or {}), **(jm.get('journals') or {})}.items()}
 
     for p in pubs:
         p['authors_html'] = mark_pi(p.get('authors'))

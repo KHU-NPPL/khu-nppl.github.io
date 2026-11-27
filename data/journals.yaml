@@ -1,5 +1,6 @@
 # Citation index shown next to each publication (tools/import_index.py).
-# Generated from the journal-list workbook — do not edit by hand.
+# "journals" is generated from the journal-list workbook — do not edit by hand.
+# "manual" holds journals added by hand (not in the workbook); it is kept on rerun.
 journals:
   acs sustainable chemistry & engineering:
     index: SCIE
@@ -52,3 +53,6 @@ journals:
   scientific reports:
     index: SCIE
 source: 20261116_JournalList_1.xlsx
+manual:
+  rapid prototyping journal:
+    index: SCIE

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block body %}
+<section class="wrap block">
+  <h1 class="page">People</h1>
+  <div class="pi">
+    <img src="{{ pi.photo }}" alt="{{ site.pi_name_en }}">
+    <div>
+      <p class="eyebrow">Principal Investigator</p>
+      <h2>{{ site.pi_name_en }} <span class="ko">{{ site.pi_name_ko }}</span></h2>
+      <p class="muted">{{ site.pi_title_en }}, {{ site.dept_en }}<br>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a> · {{ site.tel }}<br>{{ site.address_en }}</p>
+      <h3>Education</h3><ul>{% for e in pi.education %}<li>{{ e }}</li>{% endfor %}</ul>
+      <h3>Experience</h3><ul>{% for e in pi.experience %}<li>{{ e }}</li>{% endfor %}</ul>
+      <h3>Professional activities</h3><ul>{% for e in pi.activities %}<li>{{ e }}</li>{% endfor %}</ul>
+      <h3>Awards</h3><ul>{% for e in pi.awards %}<li>{{ e }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+
+  <h2 class="sec">Current members</h2>
+  <div class="members">
+    {% for m in people.current %}
+    <div class="member">
+      <img src="{{ m.photo }}" alt="{{ m.name }}" loading="lazy">
+      <h3>{{ m.name }}</h3>
+      <p class="role">{{ m.role }} · {{ m.since }}–</p>
+      <ul>{% for a in m.area %}<li>{{ a }}</li>{% endfor %}</ul>
+      {% if m.email %}<a href="mailto:{{ m.email }}">{{ m.email }}</a>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <h2 class="sec">Alumni</h2>
+  <table class="alumni">
+    <thead><tr><th>Name</th><th>Period</th><th>Current position</th></tr></thead>
+    <tbody>{% for a in people.alumni %}<tr><td>{{ a.name }}</td><td>{{ a.period }}</td><td>{{ a.now }}</td></tr>{% endfor %}</tbody>
+  </table>
+</section>
+{% endblock %}

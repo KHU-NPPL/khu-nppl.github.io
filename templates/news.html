@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block body %}
+<section class="wrap block">
+  <h1 class="page">News</h1>
+  {% for n in news %}
+  <article class="news">
+    <img src="{{ n.image }}" alt="" loading="lazy">
+    <div>
+      {% if n.date %}<p class="eyebrow">{{ n.date }}</p>{% endif %}
+      <h2>{{ n.title }}</h2>
+      <p>{{ n.body }}</p>
+    </div>
+  </article>
+  {% endfor %}
+</section>
+{% endblock %}

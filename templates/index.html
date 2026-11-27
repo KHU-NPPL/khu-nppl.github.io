@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block body %}
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">{{ site.dept_en }}</p>
+      <h1>{{ site.lab_name }}</h1>
+      <p class="lead">Metal additive manufacturing, powder processing and sintering — from powder surfaces to printed parts.</p>
+      <p class="hero-cta"><a class="btn" href="research.html">Our research</a><a class="btn ghost" href="publications.html">Publications</a></p>
+    </div>
+    <figure class="hero-fig"><img src="img/research/am.jpg" alt="Additive manufacturing research at NPPL"></figure>
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2 class="sec">Research areas</h2>
+  <div class="cards">
+    {% for r in research %}
+    <a class="card" href="research.html#{{ r.id }}">
+      <img src="{{ r.image }}" alt="" loading="lazy">
+      <div class="card-body"><h3>{{ r.title }}</h3><p>{{ r.topics[0] }}</p></div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap block two">
+  <div>
+    <h2 class="sec">Recent publications</h2>
+    <ol class="mini-pubs">
+      {% for p in recent %}
+      <li><span class="t">{{ p.title }}</span><span class="j">{{ p.journal }}{% if p.year %} · {{ p.year }}{% endif %}</span></li>
+      {% endfor %}
+    </ol>
+    <a class="more" href="publications.html">All publications →</a>
+  </div>
+  <div class="join">
+    <h2 class="sec">Join us</h2>
+    <p>{{ site.welcome | replace('\n', ' ') }}</p>
+    <p><a class="btn" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  </div>
+</section>
+{% endblock %}

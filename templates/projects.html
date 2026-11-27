@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+<section class="wrap block">
+  <h1 class="page">On-going Projects</h1>
+  <div class="projects">
+    {% for p in projects %}
+    <div class="project">
+      <img src="{{ p.image }}" alt="" loading="lazy">
+      <div><h3>{{ p.title }}</h3><p class="muted">{{ p.agency }} · {{ p.period }} · {{ p.budget }}</p></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

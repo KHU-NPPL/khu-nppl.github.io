@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block body %}
+<section class="wrap block">
+  <h1 class="page">Research</h1>
+  <nav class="chips">{% for r in research %}<a href="#{{ r.id }}">{{ r.title }}</a>{% endfor %}</nav>
+  {% for r in research %}
+  <article class="area" id="{{ r.id }}">
+    <h2>{{ r.title }}</h2>
+    <ul>{% for t in r.topics %}<li>{{ t }}</li>{% endfor %}</ul>
+    {% if r.figures %}
+    <div class="figs">
+      {% for f in r.figures %}
+      <figure>
+        {% if f.video %}<video src="{{ f.video }}" poster="{{ f.poster }}" controls muted playsinline preload="none"></video>
+        {% else %}<img src="{{ f.image }}" alt="{{ f.caption }}" loading="lazy">{% endif %}
+        <figcaption>{{ f.caption }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endblock %}

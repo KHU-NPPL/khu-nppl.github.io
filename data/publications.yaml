@@ -1,0 +1,683 @@
+publications:
+- kind: international
+  title: Machine Learning-based Process Optimization in Laser Powder Bed Fusion of Mixed Hydrogenation-Dehydrogenation (HDH)/Spherical Ti-6Al-4V Powders
+  authors: Jimin Han, Jongik Lee(Equally contributed), Ukju Gim, Sehun Kim, Sanghee Jeong, Taehu Kang, Bin Lee*
+  journal: Metals and Materials International
+  details: Accepted
+  status: accepted
+  year: 2026
+- kind: international
+  title: Impurities removal behavior in zirconium electron beam melting by temperature distribution and thermodynamic properties
+  authors: Soosung Kim, HyunChul Kim, Uijun Ko, Yehui Kim, Bin Lee, Dong-Hyun Kim, Kyoung-Tae Park
+  journal: International Journal of Refractory Metals and Hard Materials
+  year: 2027
+  month: 1
+  volume: '142'
+  page: '108090'
+  article: '108090'
+  doi: 10.1016/j.ijrmhm.2026.108090
+  issn:
+  - 0263-4368
+- kind: international
+  title: 'In-situ alloying of Ti-40Nb via L-PBF using non-spherical powders: Microstructure, mechanical properties and in vitro cytotoxicity'
+  authors: Sehun Kim, Byeongseon An, Jaesung Kwon, Aruem Han, Sekwon Oh, Yewon Han, Taehu Kang, Jongik Lee, Sanghee Jeong, Jimin Han, Yujin Rhee*, Bin Lee*
+  journal: Journal of Alloys and Compounds
+  year: 2026
+  month: 8
+  volume: '1079'
+  page: '189935'
+  article: '189935'
+  doi: 10.1016/j.jallcom.2026.189935
+  issn:
+  - 0925-8388
+- kind: international
+  title: Nanoscale Y2O3 dispersion via mechanofusion for high-strength oxide-strengthened Ti-6Al-4V produced by laser powder bed fusion
+  authors: Sanghee Jeong, Sehun Kim, Semin Oh, Jungwoo Han, Haseong Baek, Kyouhyun Kim, Teasung Jun, Ukju Gim, Chanwon Jung*, Bin Lee*
+  journal: Journal of Alloys and Compounds
+  year: 2026
+  month: 8
+  volume: '1079'
+  page: '189878'
+  article: '189878'
+  doi: 10.1016/j.jallcom.2026.189878
+  issn:
+  - 0925-8388
+- kind: international
+  title: High-Temperature Oxidation Behavior and Oxide Dispersion Strengthening Effects in Y2O3-added HDH Ti-6Al-4V Powder for Powder Bed Fusion
+  authors: Ukju Gim, Sehun Kim, Taehu Kang, Jongik Lee, Sanghee Jeong, Jimin Han, Bin Lee*
+  journal: Metals and Materials International
+  year: 2026
+  month: 8
+  doi: 10.1007/s12540-025-02218-w
+  issn:
+  - 1598-9623
+  - 2005-4149
+- kind: domestic
+  title: The Optimization of L-PBF Process for Economical & High Performance using SiO2 Nanoparticle-coated Non-spherical Ti Powder
+  authors: Taehu Kang, Ukju Gim, Sehun Kim, Jongik Lee, Sanghee Jeong, Jimin Han, Bin Lee*
+  journal: Journal of Powder Materials
+  year: 2026
+  month: 2
+  volume: '33'
+  issue: '1'
+  page: 22-36
+  doi: 10.4150/jpm.2026.00024
+  issn:
+  - 2799-8525
+  - 2799-8681
+- kind: international
+  title: Enhancing sputtering process efficiency and thin-film properties of Mo–10Nb targets through spark plasma sintering of nanopowders
+  authors: Suyeon Kim, Geon Kim, Byungheon Oh, Min Jeong Kim, Byungjin Cho, Bin Lee*, Dongju Lee*
+  journal: International Journal of Refractory Metals and Hard Materials
+  year: 2026
+  month: 1
+  volume: '134'
+  page: '107482'
+  article: '107482'
+  doi: 10.1016/j.ijrmhm.2025.107482
+  issn:
+  - 0263-4368
+- kind: international
+  title: Grain Growth Inhibition in Microwave Sintered Al2O3 with Two-step Hybrid Sintering
+  authors: Muhammad Waqas Khalid, Sanghoon Jo, Dongju Lee*, Bin Lee*
+  journal: International Journal of Refractory Metals and Hard Materials
+  year: 2025
+  month: 12
+  volume: '133'
+  page: '107399'
+  article: '107399'
+  doi: 10.1016/j.ijrmhm.2025.107399
+  issn:
+  - 0263-4368
+- kind: international
+  title: Improving mechanical properties of biomedical β-type Ti–Nb–Zr alloy fabricated by directed energy deposition
+  authors: Shailendra Kumar Verma, Maya Putri Agustianingrum, Hyeonseok Cho, Alireza Zargaran, Bin Lee*, Nokeun Park*, Kyoungdoc Kim*
+  journal: Journal of Alloys and Compounds
+  year: 2025
+  month: 11
+  volume: '1045'
+  page: '184700'
+  article: '184700'
+  doi: 10.1016/j.jallcom.2025.184700
+  issn:
+  - 0925-8388
+- kind: international
+  title: Additively manufactured TiNiSn-based half-Heusler compounds enabled by in situ crack healing
+  authors: Seoung-Ho Lim, Dae-Kyeom Kim, Bin Lee, Chanwon Jung*, Pyuck-Pa Choi*
+  journal: Journal of Alloys and Compounds
+  year: 2025
+  month: 9
+  volume: '1039'
+  page: '182771'
+  article: '182771'
+  doi: 10.1016/j.jallcom.2025.182771
+  issn:
+  - 0925-8388
+- kind: domestic
+  title: 'Cost-effective Fabrication of Near β-Ti Alloy via L-PBF: Process Optimization of In-situ Alloying Ti-3Fe'
+  authors: Sehun Kim, Ukju Gim, Taehu Kang, Jongik Lee, Sanghee Jeong, Jimin Han, Bin Lee*
+  journal: Journal of Powder Materials
+  year: 2025
+  month: 8
+  volume: '32'
+  issue: '4'
+  page: 288-298
+  doi: 10.4150/jpm.2025.00213
+  issn:
+  - 2799-8525
+  - 2799-8681
+- kind: international
+  title: An Overview of Laser Wire Directed Energy Deposition (LW-DED) Additive Manufacturing Process Using a Coaxial Laser Heat Source
+  authors: Ukju Gim, Sehun Kim(Equally Contributed), Taehoo Kang, Jongik Lee, Sanghee Jung, Jimin Han, Hyub Lee*, Bin Lee*
+  journal: Korean Journal of Metals and Materials
+  year: 2025
+  month: 6
+  volume: '63'
+  issue: '6'
+  page: 462-473
+  doi: 10.3365/kjmm.2025.63.6.462
+  issn:
+  - 1738-8228
+  - 2288-8241
+- kind: international
+  title: SiO2 nanoparticle-coated Ti-6Al-4V spherical powder for powder bed fusion additive manufacturing process
+  authors: Jongik Lee, Taehoo Kang(Equally Contributed), Ukju Gim, Sehun Kim, Sanghee Jung, Jimin Han, Bin Lee*
+  journal: Powder Metallurgy
+  year: 2025
+  month: 5
+  volume: '68'
+  issue: '4'
+  page: 333-341
+  doi: 10.1177/00325899251345247
+  issn:
+  - 0032-5899
+  - 1743-2901
+- kind: international
+  title: Enhanced flow properties of SiO2 nanoparticles coated low-cost hydrogenation-dehydrogenation Ti-6Al-4V powder for powder bed fusion process
+  authors: Ukju Gim, Sehun Kim(Equally Contributed), Tae hu Kang, Jongik Lee, Sanghee Jeong, Jimin Han, Bin Lee*
+  journal: Powder Metallurgy
+  year: 2025
+  month: 2
+  volume: '68'
+  issue: '2'
+  page: 95-107
+  doi: 10.1177/00325899251316954
+  issn:
+  - 0032-5899
+  - 1743-2901
+- kind: international
+  title: Strengthening mechanisms analysis and tailoring of bimodal grain structures for enhanced strength in CoCrFeMnNi high entropy alloys
+  authors: Jaesoung Lee, Seulgi Kim(Equally Contributed), Taehyun Kwon, Young Il Kim, Suyeon Kim, Sung Ho Song*, Bin Lee*, Dongju Lee*
+  journal: Rare Metals
+  year: 2024
+  month: 8
+  volume: '43'
+  issue: '8'
+  page: 3893-3903
+  doi: 10.1007/s12598-024-02799-2
+  issn:
+  - 1001-0521
+  - 1867-7185
+- kind: international
+  title: Microstructure and residual stress analysis as heat treatment of additive manufactured A356.2 alloy by powder bed fusion
+  authors: Sang Cheol Park, InYeong Kim,(Equally Contributed), Kee-Ahn Lee, Seok-Jun Seo, Dae-Kyeom Kim*, Bin Lee*
+  journal: Materials Characterization
+  year: 2024
+  month: 1
+  volume: '207'
+  page: '113538'
+  article: '113538'
+  doi: 10.1016/j.matchar.2023.113538
+  issn:
+  - 1044-5803
+- kind: international
+  title: Residual stress analysis of additive manufactured A356.2 aluminum alloys using X-Ray diffraction methods
+  authors: SangCheol Park, InYeong Kim, Young Il Kim, Dae-Kyeom Kim, Soong Ju Oh, Kee-Ahn Lee, Bin Lee*
+  journal: Korean Journal of Metals and Materials
+  year: 2023
+  month: 7
+  volume: '61'
+  issue: '7'
+  page: 534-544
+  doi: 10.3365/kjmm.2023.61.7.534
+  issn:
+  - 1738-8228
+  - 2288-8241
+- kind: international
+  title: 'Porous Material (Titanium Gas Diffusion Layer) in Proton Exchange Membrane Fuel Cell/Electrolyzer : Fabrication Methods & GeoDict : A Critical Review'
+  authors: Javid Hussain, Dae-Kyeom Kim, Sangmin Park, Muhammad Waqas Khalid, Sayed Sajid Hussain, Bin Lee, Myungsuk Song*, Taek-soo Kim*
+  journal: Materials
+  year: 2023
+  month: 6
+  volume: '16'
+  issue: '13'
+  page: '4515'
+  doi: 10.3390/ma16134515
+  issn:
+  - 1996-1944
+- kind: international
+  title: Experimental and computational study of optimized gas diffusion layer for polymer electrolyte membrane electrolyzer
+  authors: Javid Hussain, Dae-Keom Kim, Sangmin Park, Muhammad Waqas Khalid, Syed Sajid Hussain, Ammad Ali, Bin Lee, Myungsuk Song*, Taek-Soo Kim*
+  journal: Materials
+  year: 2023
+  month: 6
+  volume: '16'
+  issue: '13'
+  page: '4554'
+  doi: 10.3390/ma16134554
+  issn:
+  - 1996-1944
+- kind: international
+  title: Microwave hybrid and conventional sintering of Al2O3 and Al2O3/ZrO2 multilayers fabricated by aqueous tape casting
+  authors: Muhammad Waqas Khalid, SangCheol Park, InYeong Kim, Javid Hussain, Amjad Hussain, Ammad Ali, Bum Sung Kim, Bin Lee*
+  journal: Journal of the American Ceramic Society
+  year: 2023
+  month: 6
+  volume: '106'
+  issue: '12'
+  page: 7288-7302
+  doi: 10.1111/jace.19249
+  issn:
+  - 0002-7820
+  - 1551-2916
+- kind: international
+  title: Surface residual stress analysis of additive manufactured AlSi10Mg alloys
+  authors: Inyeong Kim, Sang Cheol Park, Young Il Kim, Dae-Kyeom Kim, Kee-Ahn Lee, Soong Ju Oh, Bin Lee*
+  journal: Journal of Alloys and Compounds
+  year: 2023
+  month: 6
+  volume: '945'
+  page: '169315'
+  article: '169315'
+  doi: 10.1016/j.jallcom.2023.169315
+  issn:
+  - 0925-8388
+- kind: domestic
+  title: Development of Lithium Lanthanum Titanate (LLTO) Membrane Manufacturing Process for Selective Separation of Lithium Ion
+  authors: Young Il Kim+, Sang Cheol Park+(Equally Contributed), Kwang Ho Shin, InYeong Kim, Kee-Ahn Lee, Sung-Kyun Jung*, Bin Lee*
+  journal: Journal of Korean Powder Metallurgy Institute
+  year: 2023
+  month: 2
+  volume: '30'
+  issue: '1'
+  page: 22-28
+  doi: 10.4150/kpmi.2023.30.1.22
+  issn:
+  - 2799-8525
+  - 2799-8681
+- kind: international
+  title: Enhancing spreadability of hydrogenation-dehydrogenation titanium powder and novel method to characterize powder spreadability for powder bed fusion additive manufacturing
+  authors: Young Il Kim, Dae-Kyeom Kim, InYeong Kim, Sang Cheol Park, Dongju Lee*, Bin Lee*
+  journal: Materials & Design
+  year: 2022
+  month: 11
+  volume: '223'
+  page: '111247'
+  article: '111247'
+  doi: 10.1016/j.matdes.2022.111247
+  issn:
+  - 0264-1275
+- kind: international
+  title: Highly thermoconductive copper-graphite flake composites controlled in the heat direction by electroless plating and spark plasma sintering
+  authors: Jaesoung Lee, Young Il Kim, Seulgi Kim, Bin Lee*, Dongju Lee*
+  journal: Journal of Alloys and Compounds
+  year: 2022
+  month: 11
+  volume: '920'
+  page: '165894'
+  article: '165894'
+  doi: 10.1016/j.jallcom.2022.165894
+  issn:
+  - 0925-8388
+- kind: domestic
+  title: Improving Flow Property of AlSi10Mg Powder for Additive Manufacturing via Surface Treatment using Methyltrichlorosilane
+  authors: Sang Cheol Park, In Yeong Kim, Young Il Kim, Dae-Kyeom Kim, Kee Ahn Lee, Soong Ju Oh, Bin Lee*
+  journal: Journal of Korean Powder Metallurgy Institute
+  year: 2022
+  month: 10
+  volume: '29'
+  issue: '5'
+  page: 363-369
+  doi: 10.4150/kpmi.2022.29.5.363
+  issn:
+  - 2799-8525
+  - 2799-8681
+- kind: domestic
+  title: Standardization Status of Rare Earth Elements Recycling in ISO TC 298
+  authors: Mi Hye Lee+, Yosep Song+(Equally Contributed), Ji Sun On, Seung Hwan Yoon, Munhwan Han, Bum Sung Kim, Taek-soo Kim, Bin Lee*
+  journal: Journal of Korean Powder Metallurgy Institute
+  year: 2022
+  month: 4
+  volume: '29'
+  issue: '2'
+  page: 159-165
+  doi: 10.4150/kpmi.2022.29.2.159
+  issn:
+  - 1225-7591
+  - 2287-8173
+- kind: international
+  title: Nd2Fe14B/FeCo Core–Shell Nanoparticle Synthesis Using Galvanic Substitution Based Electroless Plating
+  authors: Muhammad Aneeq Haq, Han-Saem Lee, Mi Hye Lee, Da-Woon Jeong, Eom Nu Si A, Bin Lee, Yoseb Song* Bum Sung Kim*
+  journal: Coatings
+  year: 2022
+  month: 3
+  volume: '12'
+  issue: '3'
+  page: '389'
+  doi: 10.3390/coatings12030389
+  issn:
+  - 2079-6412
+- kind: international
+  title: Zone-specific temperature distribution, densification trajectory and grain-growth kinetics of microwave-hybrid-sintered and conventionally sintered Al2O3 slip casts
+  authors: Muhammad Waqas Khalid, Young Il Kim, Muhammad Aneeq Haq, In yeong Kim, Dongju Lee, Bum Sung Kim, Bin Lee*
+  journal: Journal of Asian Ceramic Societies
+  year: 2022
+  month: 3
+  volume: '10'
+  issue: '2'
+  page: 322-337
+  doi: 10.1080/21870764.2022.2049997
+  issn:
+  - 2187-0764
+- kind: domestic
+  title: Recycling of Hardmetal Tool through Alkali Leaching Process and Fabrication Process of Nano-sized Tungsten Carbide Powder using Self-propagation High-temperature Synthesis
+  authors: Hee-Nam Kang+, Dong Il Jeong+(Equally Contributed), Young Il Kim, In Yeong Kim, Sang Cheol Park, Cheol Woo Nam, Seok-Jun Seo, Jin Yeong Lee* and Bin Lee*
+  journal: Journal of Korean Powder Metallurgy Institute
+  year: 2022
+  month: 2
+  volume: '29'
+  issue: '1'
+  page: 47-55
+  doi: 10.4150/kpmi.2022.29.1.47
+  issn:
+  - 1225-7591
+  - 2287-8173
+- kind: international
+  title: Facile recycling of cemented tungsten carbide soft scrap via mechanochemical ball milling
+  authors: Jaesoung Lee, Mingoo Kim, Seulgi Kim, Yunhee Ahn, Bin Lee*, Dongju Lee*
+  journal: International Journal of Refractory Metals and Hard Materials
+  year: 2021
+  month: 11
+  volume: '100'
+  page: '105645'
+  article: '105645'
+  doi: 10.1016/j.ijrmhm.2021.105645
+  issn:
+  - 0263-4368
+- kind: international
+  title: Enhanced cooling channel efficiency of high-pressure die-casting molds with pure copper linings in cooling channels via explosive bonding
+  authors: Sang-Soo Shin, Sang-Kee Lee, Dae-Kyeom Kim, Bin Lee*
+  journal: Journal of Materials Processing Technology
+  year: 2021
+  month: 11
+  volume: '297'
+  page: '117235'
+  article: '117235'
+  doi: 10.1016/j.jmatprotec.2021.117235
+  issn:
+  - 0924-0136
+- kind: international
+  title: Microstructure and mechanical properties of SKD61–Cu cooling channel fabricated via explosive welding
+  authors: Sang-Soo Shin*, Young-Il Kim, Ki-Hyuk Kim, Bin Lee*
+  journal: Materials Today Communications
+  year: 2021
+  month: 9
+  volume: '28'
+  page: '102645'
+  article: '102645'
+  doi: 10.1016/j.mtcomm.2021.102645
+  issn:
+  - 2352-4928
+- kind: international
+  title: Densification behavior of microwave hybrid sintered Al2O3 bimodal powder mixtures and comparison with 3D modeling and simulation
+  authors: Muhammad Waqas Khalid, Young Il Kim, Muhammad Aneeq Haq, Sang-Soo Shin, Dongju Lee, Bum Sung Kim, Bin Lee*
+  journal: International Journal of Refractory Metals and Hard Materials
+  year: 2021
+  month: 9
+  volume: '99'
+  page: '105586'
+  article: '105586'
+  doi: 10.1016/j.ijrmhm.2021.105586
+  issn:
+  - 0263-4368
+- kind: international
+  title: The effects of Y pre-alloying on the in-situ dispersoids of ODS CoCrFeMnNi high-entropy alloy
+  authors: SeungHyeok Chung, Bin Lee, Soo Yeol Lee, Changwoo Do, Ho Jin Ryu*
+  journal: Journal of Materials Science & Technology
+  year: 2021
+  month: 9
+  volume: '85'
+  page: 62-75
+  doi: 10.1016/j.jmst.2020.11.081
+  issn:
+  - 1005-0302
+- kind: international
+  title: Improving spreadability of hydrogenation–dehydrogenation Ti powder via surface treatment using silane-based compounds
+  authors: Young Il Kim+, Dae-Kyeom Kim+(Equally Contributed), Dongju Lee, Taek-Soo Kim, Young Do Kim, Bin Lee*
+  journal: Applied Surface Science
+  year: 2021
+  month: 8
+  volume: '556'
+  page: '149645'
+  article: '149645'
+  doi: 10.1016/j.apsusc.2021.149645
+  issn:
+  - 0169-4332
+- kind: international
+  title: Comparative study for microstructural characterisations and properties of Ti-Y powders produced by vacuum induction gas atomization cold crucible process
+  authors: Dae-Kyeom Kim+, Young Il Kim+(Equally Contributed), Young Do Kim, Dongju Lee, Bin Lee*, Taek-Soo Kim*
+  journal: Powder Metallurgy
+  year: 2021
+  month: 5
+  volume: '64'
+  issue: '5'
+  page: 396-403
+  doi: 10.1080/00325899.2021.1921962
+  issn:
+  - 0032-5899
+  - 1743-2901
+- kind: domestic
+  title: Review on Characterization Method and Recent Research Trend about Metal Powder for Powder Bed Fusion (PBF) Process
+  authors: Bin Lee*, Dae-Kyeom Kim, Young Il Kim, Do Hoon Kim, Yong Son, Kyoung-Tae Park, Taek-Soo Kim
+  journal: Journal of Korean Powder Metallurgy Institute
+  year: 2020
+  month: 12
+  volume: '27'
+  issue: '6'
+  page: 509-519
+  doi: 10.4150/kpmi.2020.27.6.509
+  issn:
+  - 1225-7591
+  - 2287-8173
+- kind: international
+  title: Gas atomization parametric study on the VIGA-CC based synthesis of titanium powder
+  authors: Dae-kyeom Kim, Young Il Kim, Hwaseon Lee, Young Do Kim, Dongju Lee, Bin Lee*, Taek-soo Kim*
+  journal: Archives of Metallurgy and Materials
+  year: 2020
+  month: 7
+  page: 997-1000
+  doi: 10.24425/amm.2020.133205
+  issn:
+  - 2300-1909
+- kind: international
+  title: Boron Nitride Nanoplatelets as Reinforcement Material for Dental Ceramics
+  authors: Bin Lee*, Jae-Sung Kwon, Muhammad Waqas Khalid, Kwang-Mahn Kim, Joonhui Kim, Kyoung Mook Lim, Soon Hyung Hong
+  journal: Dental Materials
+  year: 2020
+  month: 6
+  volume: '36'
+  issue: '6'
+  page: 744-754
+  doi: 10.1016/j.dental.2020.03.002
+  issn:
+  - 0109-5641
+- kind: international
+  title: Highly porous cobalt oxide-decorated carbon nanofibers fabricated from starch as free-standing electrodes for supercapacitors
+  authors: Lemya Kebabsa, Joonhui Kim, Dongju Lee, Bin Lee*
+  journal: Applied Surface Science
+  year: 2020
+  month: 5
+  volume: '511'
+  page: '145313'
+  article: '145313'
+  doi: 10.1016/j.apsusc.2020.145313
+  issn:
+  - 0169-4332
+- kind: international
+  title: Microwave hybrid sintering of Al2O3 and Al2O3-ZrO2 composites, and effects of ZrO2 crystal structure on mechanical properties, thermal properties, and sintering kinetics
+  authors: Muhammad Waqas Khalid, Young Il Kiim, Muhammad Aneeq Haq, Dongju Lee, Bum Sung Kim, Bin Lee*
+  journal: Ceramics International
+  year: 2020
+  month: 5
+  volume: '46'
+  issue: '7'
+  page: 9002-9010
+  doi: 10.1016/j.ceramint.2019.12.147
+  issn:
+  - 0272-8842
+- kind: domestic
+  title: Optimization of Metal Powder Particle Size Distribution for Powder Bed Fusion Process via Simulation
+  authors: Hwaseon Lee, Dae-Kyeom Kim, Young Il Kim, Jieun Nam, Yong Son, Taek-Soo Kim, Bin Lee*
+  journal: Journal of Korean Powder Metallurgy Institute
+  year: 2020
+  month: 2
+  volume: '27'
+  issue: '1'
+  page: 44-51
+  doi: 10.4150/kpmi.2020.27.1.44
+  issn:
+  - 1225-7591
+  - 2287-8173
+- kind: domestic
+  title: Standardization of Rare Earth Elements in ISO TC 298 and Korea’s Standardization Strategy
+  authors: Nu Si A Eom, Sardar Farhat Abbas, Haq Muhammad Aneeq, Rasheed Mohammad Zarar, Mi Hye Lee, Bum Sung Kim, Taek-soo Kim, Bin Lee*
+  journal: Journal of Korean Powder Metallurgy Institute
+  year: 2019
+  month: 6
+  volume: '26'
+  issue: '3'
+  page: 251-257
+  doi: 10.4150/kpmi.2019.26.3.251
+  issn:
+  - 1225-7591
+  - 2287-8173
+- kind: international
+  title: Multistep heat-treatment effects on electrospun Nd-Fe-B-O nanofabers
+  authors: E.J.Jeon, Y.-H.Choa, J.Lee, B.Lee, H.M.Cho, J.On, B.S.Kim
+  journal: Archives of Metallurgy and Materials
+  year: 2018
+  month: 10
+  page: 1433-1437
+  doi: 10.24425/123823
+  issn:
+  - 2300-1909
+- kind: international
+  title: High entropy alloy strengthened by in situ formation of entropy-stabilized nano-dispersoids
+  authors: Bharat Gwalani, Rizaldy M. Pohan, Junho Lee, Bin Lee, Rajarshi Banerjee, Ho Jin Ryu, Soon Hyung Hong
+  journal: Scientific Reports
+  year: 2018
+  month: 9
+  volume: '8'
+  issue: '1'
+  article: '14085'
+  doi: 10.1038/s41598-018-32552-6
+  issn:
+  - 2045-2322
+- kind: international
+  title: Fabrication and characterization of CoCrFeNiMn High entropy alloy powder processed by gas atomization
+  authors: Tae Gyu Park, Sang Hyun Lee, Bin Lee, Hye Mi Cho, Won Jung Choi, Bum Sung Kim, Kwang Seon Shin, Taek-soo Kim
+  journal: Archives of Metallurgy and Materials
+  year: 2018
+  month: 6
+  doi: 10.24425/122442
+  issn:
+  - 2300-1909
+- kind: domestic
+  title: Trends and Implications of International Standardization for Rare Earths
+  authors: Sardar Farhat Abbas, Sang-Hyun Lee, Bin Lee, Bum-Sung Kim, Taek-soo Kim
+  journal: Journal of Korean Powder Metallurgy Institute
+  year: 2018
+  month: 4
+  volume: '25'
+  issue: '2'
+  page: 165-169
+  doi: 10.4150/kpmi.2018.25.2.165
+  issn:
+  - 1225-7591
+  - 2287-8173
+- kind: international
+  title: Microstructure development of spark plasma sintered Ti-Nb alloy by heat treatment
+  authors: M.A.HAQ, S.F.ABBAS, T.S.Kim, B.Lee, K.T.Park, B.S.Kim
+  journal: Archives of Metallurgy and Materials
+  details: Vol. 63, No.3, pp.1427-1430, 2018.
+  year: 2018
+  doi: 10.24425/123822
+- kind: international
+  title: Enhanced Capacitive Deionization by Dispersion of CNTs in Activated Carbon Electrode
+  authors: Bin Lee, Nam Soo Park, Kyung Suk Kang, Ho Jin Ryu, Soon H. Hong
+  journal: ACS Sustainable Chemistry & Engineering
+  year: 2017
+  month: 12
+  volume: '6'
+  issue: '2'
+  page: 1572-1579
+  doi: 10.1021/acssuschemeng.7b01750
+  issn:
+  - 2168-0485
+  - 2168-0485
+- kind: domestic
+  title: Growth mechanism of InP and InP/ZnS synthesis using colloidal synthesis
+  authors: Han wook Seo, Da-woon Jeong, Bin Lee, Seoung kyun Hyun, Bum Sung Kim
+  journal: Journal of Korean Powder Metallurgy Institute
+  year: 2017
+  month: 2
+  volume: '24'
+  issue: '1'
+  page: 6-10
+  doi: 10.4150/kpmi.2017.24.1.6
+  issn:
+  - 1225-7591
+  - 2287-8173
+- kind: international
+  title: Dilatometric analysis and microstructural investigation of the sintering mechanisms of blended elemental Ti-6Al-4V powders
+  authors: Youngmoo Kim, Junho Lee, Bin Lee, Hojin Ryu, Soon Hyung Hong
+  journal: Metallurgical and Materials Transactions A
+  year: 2016
+  month: 6
+  volume: '47'
+  issue: '9'
+  page: 4616-4624
+  doi: 10.1007/s11661-016-3607-3
+  issn:
+  - 1073-5623
+  - 1543-1940
+- kind: international
+  title: Enhancement of toughness and wear resistance in boron nitride nanoplatelet (BNNP) reinforced Si3N4 nanocomposites
+  authors: Bin Lee, Donju Lee, Jun Ho Lee, Ho Jin, Ryu, Soon Hyung Hong
+  journal: Scientific Reports
+  year: 2016
+  month: 6
+  volume: '6'
+  issue: '1'
+  article: '27609'
+  doi: 10.1038/srep27609
+  issn:
+  - 2045-2322
+- kind: international
+  title: Fabrication of Al2O3/AlN micro-composites designed for tailored physical properties
+  authors: B. Lee, M. K. Kim (The first two authors contributed equally to this work), M. Y. Koo, H. J. Ryu, S. H. Hong
+  journal: Materials & Design
+  year: 2015
+  month: 12
+  volume: '86'
+  page: 1-5
+  doi: 10.1016/j.matdes.2015.07.066
+  issn:
+  - 0264-1275
+- kind: international
+  title: Scalable Exfoliation Process for Highly Soluble Boron Nitride Nanoplatelets by Hydroxide-Assisted Ball Milling
+  authors: Dongju Lee, Bin Lee, Kwang Hyun Park, Ho Jin Ryu, Seokwoo Jeon and Soon Hyung Hong
+  journal: Nano Letters
+  year: 2015
+  month: 1
+  volume: '15'
+  issue: '2'
+  page: 1238-1244
+  doi: 10.1021/nl504397h
+  issn:
+  - 1530-6984
+  - 1530-6992
+- kind: international
+  title: Simultaneous strengthening and toughening of reduced graphene oxide/alumina composites fabricated by molecular-level mixing process
+  authors: Bin Lee, Min Young Koo, Sung Hwan Jin, Kyung Tae Kim, Soon H. Hong
+  journal: Carbon
+  year: 2014
+  month: 11
+  volume: '78'
+  page: 212-219
+  doi: 10.1016/j.carbon.2014.06.074
+  issn:
+  - 0008-6223
+- kind: international
+  title: Salting-out as a scalable, in-series purification method of graphene oxides from microsheets to quantum dots
+  authors: Seongwoo Ryu, Bin Lee, Seonki Hong, Sunghwan Jin, Sungjin Park, Soon Hyung Hong, Haeshin Lee
+  journal: Carbon
+  year: 2013
+  month: 11
+  volume: '63'
+  page: 45-53
+  doi: 10.1016/j.carbon.2013.06.037
+  issn:
+  - 0008-6223
+- kind: international
+  title: Enhanced conduction and charge-selectivity by N-doped graphene flakes in the active layer of bulk-heterojunction organic solar cells
+  authors: Gwang Hoon Jun, Sung Hwan Jin, Bin Lee, Bo Hyun Kim, Weon-Sik Chae, Soon Hyung Hong, and Seokwoo Jeon
+  journal: Energy & Environmental Science
+  year: 2013
+  volume: '6'
+  issue: '10'
+  page: '3000'
+  doi: 10.1039/c3ee40963e
+  issn:
+  - 1754-5692
+  - 1754-5706

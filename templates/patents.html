@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block body %}
+<section class="wrap block">
+  <h1 class="page">Patents</h1>
+  <h2 class="sec">Domestic ({{ patents.domestic | length }})</h2>
+  <ol class="pubs" reversed>
+    {% for p in patents.domestic %}
+    <li class="pub"><span class="no">{{ patents.domestic | length - loop.index0 }}</span><div>
+      <p class="pt">{{ p.title }}{% if p.note %} <span class="metric">{{ p.note }}</span>{% endif %}</p>
+      <p class="pa">{{ p.inventors }}</p><p class="pj">{{ p.numbers }}</p></div></li>
+    {% endfor %}
+  </ol>
+  <h2 class="sec">International ({{ patents.international | length }})</h2>
+  <ol class="pubs">
+    {% for p in patents.international %}
+    <li class="pub"><span class="no">{{ patents.international | length - loop.index0 }}</span><div>
+      <p class="pt">{{ p.title }}</p><p class="pa">{{ p.inventors }}</p><p class="pj">{{ p.numbers }}</p></div></li>
+    {% endfor %}
+  </ol>
+</section>
+{% endblock %}

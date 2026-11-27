@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title != 'Home' %}{{ title }} · {% endif %}{{ site.lab_name }} | {{ site.dept_ko }} {{ site.pi_name_ko }}</title>
+<meta name="description" content="{{ site.lab_name }} ({{ site.lab_short }}) — {{ site.pi_name_en }}, {{ site.dept_en }}. Metal additive manufacturing, powder processing and sintering.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23a01c2c'/><circle cx='11' cy='12' r='4' fill='white'/><circle cx='21' cy='11' r='3' fill='white'/><circle cx='16' cy='21' r='5' fill='white'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">{{ site.lab_short }}</span>
+      <span class="brand-text"><b>{{ site.lab_name }}</b><small>{{ site.dept_ko }} · {{ site.pi_name_ko }}</small></span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menu">
+    <label for="nav-toggle" class="nav-btn" aria-hidden="true"><span></span><span></span><span></span></label>
+    <nav class="nav">
+      {% for f, t in pages %}<a href="{{ f }}"{% if f == current %} class="on"{% endif %}>{{ t }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+<main>
+{% block body %}{% endblock %}
+</main>
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div>
+      <b>{{ site.lab_name }} ({{ site.lab_short }})</b><br>
+      {{ site.address_ko }}<br>
+      Tel. {{ site.tel }} · <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+    <div class="foot-links">
+      <a href="{{ site.scholar }}" rel="noopener">Google Scholar</a>
+      <span>© {{ site.lab_short }}, Kyung Hee University</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

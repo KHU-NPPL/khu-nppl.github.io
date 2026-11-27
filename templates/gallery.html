@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block body %}
+<section class="wrap block">
+  <h1 class="page">Gallery</h1>
+  <div class="gallery">
+    {% for g in gallery %}
+    <figure><a href="{{ g.image }}"><img src="{{ g.image }}" alt="{{ g.caption }}" loading="lazy"></a><figcaption>{{ g.caption }}</figcaption></figure>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

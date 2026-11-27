@@ -1,0 +1,26 @@
+- date: 2024-12-23
+  title: LW-DED (Meltio M450) equipment installed at NPPL
+  image: img/news/m450.jpg
+  body: >-
+    We introduced a laser-wire directed energy deposition (DED) system manufactured by Meltio (Spain), the first of its kind at a university in Korea.
+    The wire-based system complements our powder bed fusion equipment with high build speed and a user-friendly interface.
+    We thank AMSolutions Korea for their support with installation and training.
+- date: ""
+  title: Powder processing machine (Nobilta NOB-130) installed
+  image: img/news/nob130.jpg
+  body: >-
+    Through the Korean government's Equipment Sharing Program, we acquired a Nobilta NOB-130 from Hosokawa Micron.
+    The machine applies impact, compression and attrition to powders, modifying their shape or attaching particles onto the surface of metal powders.
+    We use it to produce oxide-dispersion-strengthened (ODS) composite powders for powder bed fusion.
+- date: 2023-10-06
+  title: L-PBF equipment (CSCAM AnyX-120) installed at NPPL
+  image: img/news/anyx120.jpg
+  body: >-
+    CSCAM's AnyX-120, a powder bed fusion machine with a 500 W laser, was installed in our laboratory.
+    It is used for research on in-situ alloying during additive manufacturing and additive manufacturing of non-spherical titanium powder.
+- date: 2016
+  title: KAIST, 새로운 인공치아·인공뼈 소재 첫 개발
+  image: img/news/kaist-bnnp.jpg
+  body: >-
+    KAIST 홍순형·류호진 교수 공동 연구팀이 질화붕소 나노플레이트렛(BNNP)을 세라믹 강화재로 응용하는 기술을 개발함.
+    제1저자는 이빈(당시 KAIST 신소재공학과 박사과정)이며, 결과는 Scientific Reports에 게재됨.

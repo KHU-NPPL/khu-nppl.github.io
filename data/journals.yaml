@@ -1,0 +1,5 @@
+# Journal metrics shown next to each publication.
+# Fill from a JCR export (tools/import_jcr.py) — never type numbers from memory or secondary websites.
+# key: lower-case journal title as it appears in publications.yaml
+jcr_year: null
+journals: {}

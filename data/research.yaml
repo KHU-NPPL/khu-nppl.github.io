@@ -1,0 +1,32 @@
+- id: am
+  title: Additive Manufacturing (3D Printing)
+  image: img/research/am.jpg
+  topics: ["Additive manufacturing processes (L-PBF, LW-DED)", "Powder characterization for metal additive manufacturing", "Metal powder post-treatment for additive manufacturing", "Characterization and post-treatment of additively manufactured parts", "Residual stress analysis of additively manufactured parts"]
+  figures:
+    - {video: video/spreadability-tester.mp4, poster: img/research/am-spreadability-tester.jpg, caption: Powder spreadability tester designed by NPPL}
+    - {image: img/research/am-lpbf.jpg, caption: "L-PBF process using our own machine (AnyX-120, CSCAM)"}
+    - {image: img/research/am-post-treatment.jpg, caption: Powder post-treatment for enhancing flowability and spreadability}
+    - {video: video/powder-before-after.mp4, poster: img/research/am-powder-before-after.jpg, caption: Powder before and after treatment by NPPL}
+- id: powder
+  title: Powder Fabrication
+  image: img/research/powder.jpg
+  topics: ["Gas atomization of titanium and high-entropy alloy powders", "Surface treatment and coating of metal powders", "Recycling of hardmetal and rare metal scrap into powders"]
+  figures: []
+- id: sintering
+  title: Sintering
+  image: img/research/sintering.jpg
+  topics: ["Microwave sintering of ceramics and ceramic matrix composites", "Slip casting and tape casting of ceramics and ceramic matrix composites", "Spark plasma sintering and hot pressing of metal and ceramic powders", "Sintering kinetics (densification and grain growth) in novel sintering processes", "Structural ceramics (Al₂O₃, Si₃N₄, AlN), dental materials (ZrO₂, Ti alloys), 2D-nanomaterial-reinforced ceramic composites and high-entropy alloys", "Large-area sintering of Li-ion selective membranes"]
+  figures:
+    - {image: img/research/sint-mw-1.jpg, caption: Microwave sintering of ZrO₂–Al₂O₃ ceramic matrix composites}
+    - {image: img/research/sint-mw-2.jpg, caption: Microwave sintering of ZrO₂–Al₂O₃ ceramic matrix composites}
+    - {image: img/research/sint-bnnp-zro2.jpg, caption: Spark plasma sintered BNNP–ZrO₂ nanocomposites for dental application}
+    - {image: img/research/sint-bnnp-si3n4.jpg, caption: Hot-pressed BNNP–Si₃N₄ nanocomposites for structural application}
+    - {image: img/research/sint-kinetics.jpg, caption: Sintering kinetics during microwave sintering of ZrO₂–Al₂O₃ composites}
+- id: characterization
+  title: Materials Characterization & Simulation
+  image: img/research/char-skd61-cu.jpg
+  topics: ["Mechanical properties and microstructure of dissimilar joined materials (SKD61–Cu)", "Modeling and simulation of additive manufacturing with GeoDict", "Capacitive deionization and electrochemical properties of activated carbon electrodes"]
+  figures:
+    - {image: img/research/char-skd61-cu.jpg, caption: Microstructure of SKD61–Cu dissimilar joint made by explosive expansion}
+    - {image: img/research/char-geodict.jpg, caption: Simulation of powder spreading with varying particle size distribution}
+    - {image: img/research/char-cdi.jpg, caption: Desalination performance of CNT-dispersed activated carbon electrode}
